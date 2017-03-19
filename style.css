@@ -9,6 +9,13 @@ body{
 	max-width: 1140px;
 	margin: 0 auto;
 }
+
+.logo img{
+	height: 100px;
+	float: left;
+	margin-top: 30px;
+}
+
 .nav-principal{
 	float: right;
 	list-style: none;
@@ -24,6 +31,12 @@ body{
 	font-size: 90%;
 	font-weight: bold;
 }
+.nav-principal li a:hover{
+	color: #e67e22;
+	border-bottom: 2px solid #e67e22;
+	transition: all 0.5s ease-in;
+	padding: 13px 0;
+}
 header{
 	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/landing-page-header-min.jpg);
 	height: 100vh;
@@ -38,5 +51,16 @@ header{
 
 h1{
 	color: white;
+}
+
+.button-principal{
+	margin-top: 30px;
+}
+
+.btn
+{
+	border: 1px solid #e67e22;
+	padding: 13px 30px;
+	text-decoration: none;
 
 }
