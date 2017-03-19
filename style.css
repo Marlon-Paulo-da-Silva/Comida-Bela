@@ -40,7 +40,9 @@ body{
 header{
 	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/landing-page-header-min.jpg);
 	height: 100vh;
+	background-position: center;
 	background-size: cover;
+	background-attachment: fixed;
 }
 .heroi{
 	position: absolute;
@@ -66,6 +68,9 @@ header{
 	color: #e67e22;
 	border-radius: 30px;
 	margin-right: 20px;
+}
+.butn:hover{
+	text-decoration: none;
 }
 .btn-vazio
 {
@@ -98,4 +103,48 @@ header{
 {
 	width: 70%;
 	margin-left: 15%;
+	margin-bottom: 20px;
+}
+
+.ajeitar
+{
+	text-align: justify;
+}
+
+.caracteristicas i{
+	font-size: 40px;
+	color: #e67e22;
+	margin-left: 45%;
+}
+.caracteristicas h4{
+	margin-left: 40px;
+}
+.refeicao-amostra{
+	list-style: none;
+	width: 100%;
+}
+.refeicao-amostra li{
+	display: block;
+	width: 25%;
+	float: left;
+}
+
+.refeicao-foto{
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+.refeicao-foto img{
+	width: 100%;
+	height: auto;
+	transform: scale(1.19);
+	transition: all 0.5s;
+}
+
+.refeicao-foto img:hover{
+	transform: scale(1);
+
+}
+.refeicoes{
+	margin-top: 16px;
 }
