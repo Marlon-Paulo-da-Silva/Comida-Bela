@@ -148,3 +148,54 @@ header{
 .refeicoes{
 	margin-top: 16px;
 }
+
+.como-funciona h3{
+	margin-top: 200px;
+	margin-bottom: 80px;
+}
+.como-funciona h3:after
+{
+	width: 120px;
+	height: 3px;
+	background-color: #e67e22;
+	display: block;
+	content: " ";
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.foto-mobile img{
+	width: 40%;
+	margin-left: 50%;
+	margin-top: 50px;
+
+}
+.funcionamento-app{
+	margin-top: 50px;
+}
+.funcionamento-app div{
+	border: 1px solid #e67e22;
+	display: inline-block;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	
+}
+.funcionamento-app img{
+	height: 40px;
+	margin-top: 20px;
+	margin-right: 20px;
+
+}
+.clearfix{
+	zoom:1;
+}
+.clearfix:after{
+	visibility: hidden;
+	content: ".";
+	height: 0;
+	display: block;
+	clear: both;
+}
