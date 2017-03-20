@@ -38,7 +38,7 @@ body{
 	padding: 13px 0;
 }
 header{
-	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/landing-page-header-min.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img-min/principal-min.jpg);
 	height: 100vh;
 	background-position: center;
 	background-size: cover;
@@ -146,13 +146,9 @@ header{
 
 }
 .refeicoes{
-	margin-top: 16px;
+	margin-top: 80px;
 }
 
-.como-funciona h3{
-	margin-top: 200px;
-	margin-bottom: 80px;
-}
 .como-funciona h3:after
 {
 	width: 120px;
@@ -198,4 +194,7 @@ header{
 	height: 0;
 	display: block;
 	clear: both;
+}
+.mobile{
+	margin-top: 60px;
 }
